@@ -5,3 +5,24 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+#
+
+
+[
+  {
+    name: "Jane Elizabeth",
+    username: "jabet",
+    location: "Willowbrook, OR"
+  },
+  {
+    name: "Alexis Anderson",
+    username: "aalexis",
+    location: "Maplewood, NY",
+  }
+].each_with_index do |attributes, index|
+  avatar_attr = {
+    io: File.open(Rails.root.join("public/avatars/#{index}.png")),
+    filename: "avatar.png"
+  }
+  User.create! attributes.merge(avatar: avatar_attr)
+end
