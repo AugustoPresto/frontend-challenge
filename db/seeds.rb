@@ -12,12 +12,14 @@
   {
     name: "Jane Elizabeth",
     username: "jabet",
-    location: "Willowbrook, OR"
+    location: "Willowbrook, OR",
+    groups: %w[engineering product]
   },
   {
     name: "Alexis Anderson",
     username: "aalexis",
     location: "Maplewood, NY",
+    groups: %w[marketing product]
   }
 ].each_with_index do |attributes, index|
   avatar_attr = {
