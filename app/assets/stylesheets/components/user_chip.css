@@ -2,7 +2,7 @@
 .user-chip {
   display: flex;
   align-items: center;
-  margin: 10px;
+  /* margin: 10px; */
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
