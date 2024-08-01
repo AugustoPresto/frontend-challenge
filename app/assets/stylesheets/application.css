@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+ @import 'components/main';
+
+:root {
+  --primary-color: #007bff;
+  --primary-color-hover: #0056b3;
+  --background-color: #006080;
+  --text-color: #333;
+  --card-background: #fff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  color: var(-text-color);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

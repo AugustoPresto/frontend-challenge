@@ -1,0 +1,43 @@
+
+.user-chip {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: var(--card-background);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-info {
+  margin-left: 10px;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.avatar {
+  position: relative;
+}
+
+.user-status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid rgb(230, 230, 230);
+  bottom: 5px;
+  right: 3px;
+  position: absolute;
+}
+
+.online {
+  background-color: rgb(36, 184, 36);
+}
+
+.offline {
+  background-color: rgb(122, 122, 122);
+}
