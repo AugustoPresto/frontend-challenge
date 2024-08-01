@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: var(--box-shadow);
+}
