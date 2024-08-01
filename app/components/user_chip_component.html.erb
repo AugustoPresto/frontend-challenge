@@ -1,11 +1,9 @@
 <div class="user-chip">
   <div class="avatar">
-    <%= image_tag user.avatar, if user.avatar.attached? %>
+    <%= image_tag user.avatar, class: "avatar-img" if user.avatar.attached? %>
+    <div class="user-status online"></div>
   </div>
   <div class="user-info">
     <%= user.username %>
-    <div class="user-status">
-      ONLINE
-    </div>
   </div>
 </div>
