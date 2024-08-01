@@ -2,12 +2,12 @@
 .user-chip {
   display: flex;
   align-items: center;
-  /* margin: 10px; */
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: var(--card-background);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: var(--box-shadow);
+  width: 280px;
 }
 
 .user-info {

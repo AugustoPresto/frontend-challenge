@@ -1,8 +1,9 @@
-<h1>Users</h1>
-<ul>
-  <% @users.each do |user| %>
-    <li>
-      <%= link_to user.username, user_path(user) %>
-    </li>
-  <% end %>
-</ul>
+<h1>Our Beloved Users</h1>
+
+<main>
+  <div class="users-grid">
+    <% @users.each do |user| %>
+      <%= render UserChipComponent.new(user: user) %>
+    <% end %>
+  </div>
+</main>

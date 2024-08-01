@@ -1,0 +1,18 @@
+/* Creates a grid in the index view to display 3 users per row.
+When mobile devices, displays 2 users per row.
+When older devices, just 1. */
+
+.users-grid {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
