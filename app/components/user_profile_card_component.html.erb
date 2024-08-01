@@ -1,0 +1,23 @@
+<div class="user-profile-card">
+  <%= render UserChipComponent.new(user: @user) %>
+  <hr class="first-bar">
+
+  <div class="user-details">
+    <div class="profile-card-item">
+      <p>Name</p>
+      <p class="user-details-text"><%= @user.name %></p>
+    </div>
+    <hr class="secondary-bar">
+
+    <div class="profile-card-item">
+      <p>Address</p>
+      <p class="user-details-text"><%= formatted_address %></p>
+    </div>
+    <hr class="secondary-bar">
+
+    <div class="profile-card-item">
+      <p>Groups</p>
+      <p class="user-details-text"><%= formatted_groups %></p>
+    </div>
+  </div>
+</div>

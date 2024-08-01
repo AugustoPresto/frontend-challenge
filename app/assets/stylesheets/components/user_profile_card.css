@@ -1,0 +1,29 @@
+.user-profile-card {
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--card-background);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.first-bar {
+  height: 1px;
+  background-color: #e5e6e8;
+  border: none;
+}
+
+.secondary-bar {
+  height: 1px;
+  background-color: #eeeeee;
+  border: none;
+}
+
+.profile-card-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details-text {
+  color: #4d555f;
+  text-align: end;
+}
