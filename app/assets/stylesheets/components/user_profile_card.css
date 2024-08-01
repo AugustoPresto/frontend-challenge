@@ -3,7 +3,7 @@
   border-radius: 8px;
   padding: 20px;
   background-color: var(--card-background);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: var(--box-shadow);
 }
 
 .first-bar {
@@ -24,6 +24,6 @@
 }
 
 .user-details-text {
-  color: #4d555f;
+  color: var(--secondary-text-color);
   text-align: end;
 }

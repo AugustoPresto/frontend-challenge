@@ -19,18 +19,22 @@
   --primary-color: #007bff;
   --primary-color-hover: #0056b3;
   --background-color: #1e7790;
-  --text-color: #333;
+  --primary-text-color: #333;
+  --secondary-text-color: #4d555f;
   --card-background: #fff;
+  --box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--background-color);
-  color: var(-text-color);
+  color: var(--text-color);
   margin: 0;
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: var(--primary-text-color);
 }
