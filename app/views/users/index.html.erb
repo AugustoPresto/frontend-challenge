@@ -4,9 +4,7 @@
     <span class="hover-wrapper">
       <%= render UserChipComponent.new(user: user) %>
       <div class="hover-content">
-        <%= turbo_frame_tag dom_id(user, :profile_card), loading: :lazy, src: user_profile_card_user_path(user) do %>
-          Loading...
-        <% end %>
+        <%= turbo_frame_tag dom_id(user, :profile_card), loading: :lazy, src: user_profile_card_user_path(user) %>
       </div>
     </span>
     <% end %>
