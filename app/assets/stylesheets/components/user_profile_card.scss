@@ -1,7 +1,7 @@
 .user-profile-card {
   max-width: 273px;
   width: auto;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   padding: 20px;
   background-color: var(--card-background);
 }

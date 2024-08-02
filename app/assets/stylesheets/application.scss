@@ -23,6 +23,7 @@
   --secondary-text-color: #4d555f;
   --card-background: #fff;
   --box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  --border-radius: 8px;
 }
 
 body {
@@ -36,7 +37,6 @@ body {
 }
 
 .hover-wrapper {
-  /* overflow: hidden; */
   position: relative;
 }
 

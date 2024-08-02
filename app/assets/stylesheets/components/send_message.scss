@@ -1,0 +1,16 @@
+.send-message-btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--card-background);
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  margin: 15px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--primary-color-hover);
+  }
+}
