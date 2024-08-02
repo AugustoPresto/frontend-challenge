@@ -1,9 +1,14 @@
 .user-profile-card {
-  width: 400px;
+  max-width: 273px;
+  width: auto;
   border-radius: 8px;
   padding: 20px;
   background-color: var(--card-background);
-  box-shadow: var(--box-shadow);
+}
+
+.profile-card-user-chip {
+  display: flex;
+  justify-content: center;
 }
 
 .first-bar {

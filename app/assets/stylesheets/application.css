@@ -35,6 +35,21 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: var(--primary-text-color);
+.hover-wrapper {
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.hover-wrapper .hover-content {
+  display: none;
+  position: absolute;
+  background-color: var(--card-background);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  margin-top: 6px;
+  z-index: 10;
+}
+
+.hover-wrapper:hover .hover-content {
+  display: block;
 }
